@@ -3,7 +3,11 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class Game1Tests {
-	//List of phenomena that occur in game:
+	//Low level tests:
+	//
+	//
+	//
+	//High level tests:
 	//Wave hit (initial)
 	//Wave hit (after round) (Covers BarModel)
 	//Random spawning
