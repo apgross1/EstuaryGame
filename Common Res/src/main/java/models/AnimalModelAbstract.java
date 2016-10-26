@@ -16,7 +16,7 @@ public abstract class AnimalModelAbstract {
 	
 	public abstract void healthUp();
 	public abstract void healthDown();
-	public abstract void pickUp();
+	public abstract void pickUp(int x, int y);
 	
 
 }

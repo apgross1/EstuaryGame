@@ -25,9 +25,25 @@ public class AnimalModel extends AnimalModelAbstract {
 	}
 
 	@Override
-	public void pickUp() {
+	public void pickUp(int x, int y) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	public int getLocX() {
+		return locX;
+	}
+
+	public void setLocX(int locX) {
+		this.locX = locX;
+	}
+	
+	public int getLocY() {
+		return locY;
+	}
+
+	public void setLocY(int locY) {
+		this.locY = locY;
 	}
 
 }
