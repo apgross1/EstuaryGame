@@ -46,4 +46,12 @@ public class AnimalModel extends AnimalModelAbstract {
 		this.locY = locY;
 	}
 
+	public Direction getCurrDir() {
+		return currDir;
+	}
+
+	public void setCurrDir(Direction currDir) {
+		this.currDir = currDir;
+	}
+
 }

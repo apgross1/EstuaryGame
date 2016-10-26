@@ -1,9 +1,9 @@
 package models;
 
 public abstract class BarModelAbstract {
-	public int status;
-	public String name;
-	public int maxLevel;
+	private int status;
+	private String name;
+	private int maxLevel;
 	
 	public BarModelAbstract() {
 		

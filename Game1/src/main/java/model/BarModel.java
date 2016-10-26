@@ -5,7 +5,7 @@ import models.BarModelAbstract;
 public class BarModel extends BarModelAbstract{
 	
 	BarModel(){
-		this.name = "Game One ~ Protect the marsh lands by building barriers!";
+		name = "Game One ~ Protect the marsh lands by building barriers!";
 		maxLevel = 12;	
 	}
 	
