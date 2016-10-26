@@ -5,20 +5,24 @@ import org.junit.Test;
 import model.AnimalModel;
 
 public class Game1Tests {
-	//Low level tests (within-class):
+	//Low level tests (within-class) (All methods in AnimalModel and GabionWallModel:
 	//Movement
-	//
+	//calculateDamageGabion
+	//calculateDamageConcrete
 	//
 	//High level tests (Between-class):
-	//Wave hit (initial)
-	//Wave hit (after round) (Covers BarModel)
+	
 	//Random spawning
 	//Pickup
-	//Game start (tests timer)
-	//Game end (tests timer as well)
+	
 	//Movement of animal
 	
-	
+	//Daniel's tests
+		//All of BarModel and ConcreteWallModel
+		////Game start (tests timer)
+		////Game end (tests timer as well)
+		//Wave hit (after round) (Covers BarModel)
+		
 	//AnimalModel
 	//Low-level testing
 	@Test
@@ -77,5 +81,7 @@ public class Game1Tests {
 		myAnimal.move();
 		assertTrue("X should be 0 and y should be 1...", (myAnimal.getLocX() == 0) && (myAnimal.getLocY() == 1));
 	}
+	
+		
 
 }
