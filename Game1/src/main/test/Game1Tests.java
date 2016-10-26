@@ -2,6 +2,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import model.AnimalModel;
+
 public class Game1Tests {
 	//Low level tests:
 	//
@@ -16,9 +18,12 @@ public class Game1Tests {
 	//Game end (tests timer as well)
 	//Movement of animal
 	
+	
+	//AnimalModel
 	@Test
-	public void test() {
-		
+	public void testPickUp() {
+		AnimalModel myAnimal = new AnimalModel();
+		myAnimal.pickUp(myAnimal.getLocX(), myAnimal.getLocY());
 	}
 
 }
